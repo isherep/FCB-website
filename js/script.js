@@ -1,30 +1,31 @@
+//expand food safety certificate on food safety page in order to give user am enlarged view
 function expand(){
 //primus image
 //<img class="safety" src="Images/Primus.png" alt="primus" >
-       
+
     var smImg = document.getElementById('small');
     var modal = document.querySelector('.modal');
-    var lrgImg = document.getElementById('img01');   
-    var closeBtn = document.querySelector('.close');    
+    var lrgImg = document.getElementById('img01');
+    var closeBtn = document.querySelector('.close');
 
     smImg.style.cursor="zoom-in";
 
     smImg.addEventListener('click', function(){
         modal.style.display = "block";
-        lrgImg.src = this.src;    
+        lrgImg.src = this.src;
     });
 
     closeBtn.addEventListener('click', function(){
         modal.style.display = "none";
     });
+}// end of expand functon
+expand();
 
-    /*
-//function  producePage(){
-    
+// slighlty enlarges produce departments when mouse is hovering over them
+function  producePage(){
+    //each produce department image buyer info
    var newHtml0, newHtml1, newHtml2, newHtml3, newHtml4, newHtml5, newHtml6, newHtml7;
-    
-   
-    
+
     //modal-content = my div departments
     //California department
     newHtml0 = '<img class="departments" src = "Images/California/iStock_000003421602Medium.jpg"  alt="greens"><!--started div.text block--><div class="text-block"> <!--started text block--><p class="text-block">California/Arizona Vegetables</p> </div><!--ended text-block--><div class = "names"><!--started div names--> <h5 class = "names01">Bob Bloxom / Mike Crosset</h5><p class="departments"><a class="departments" href="mailto:robertb@fcbloxom.com">"robertb@fcbloxom.com</a><br/><a class="departments" href="mailto:mikec@fcbloxom.com">mikec@fcbloxom.com"</a></p></div></div>';
@@ -42,32 +43,31 @@ function expand(){
     newHtml6 = '<img class="departments" src="Images/globe-grid-silhouette-with-white-details_318-38858.jpg" alt="globe"><div class="text-block"> <!--started text block--><p class="text-block">Export</p></div><!--ended text block--><div class = "names"><!--started div names--> <h5>Brian Bernard</h5><p class="departments"><a class="departments" href="mailto:brianb@fcbloxom.com">brianb@fcbloxom.com</a> <br/></div><!--ended names--></div>';
     //Walla Walla
     newHtml7 = '<img class="departments" src="Images/walla.png" alt="walla walla"><div class="text-block"> <!--started text block--><p class="text-block">Walla Walla Office</p></div><!--ended text block--><div class = "names"><!--started div names--> <h5>Bryon Maghnati</h5><p class="departments"><a class="departments" href="mailto:brianb@fcbloxom.com">bryonm@fcbloxom.com</a></p></div><!--closed names--></div>';
-    
-    var htmlArr = [newHtml0, newHtml1, newHtml2, newHtml3, newHtml4, newHtml5, newHtml6, newHtml7];
-    
-    var prodCont = document.querySelectorAll('.products');
-    var modalPr = document.querySelectorAll('.modalPr');
 
-    function brighten(num){
-        
-        modalPr[num].style.display = "block";
-        modalPr[num].classList.add('modalDiv');         modalPr[num].insertAdjacentHTML('beforeend',htmlArr[num]);  
-    }
+    // array of html containers
+    var htmlArr = [newHtml0, newHtml1, newHtml2, newHtml3, newHtml4, newHtml5, newHtml6, newHtml7];
+    // selecting all containers that show produce departments
+    var prodCont = document.querySelectorAll('.products');
+    // modal replacement
+    var modalPr = document.querySelectorAll('.modalPr');
     
+    // places slightly expanded content into modal container
+    function brighten(num){
+
+        modalPr[num].style.display = "block";
+        modalPr[num].classList.add('modalDiv');         modalPr[num].insertAdjacentHTML('beforeend',htmlArr[num]);
+    }
+    // switches back to normal
     function putBack(num){
         modalPr[num].style.display = "none";
     }
-   
 
+    // adding event listner to each department that slightly expands it 
+    // on mouse over
     for(var i = 0; i< prodCont.length; i++){
         prodCont[i].addEventListener('mouseover', brighten.bind(this, i), false);
         prodCont[i].addEventListener('mouseout', putBack.bind(this,i), false);
     }
+} //end of producePage function   
+producePage();    
     
-//} //end of producePage function
-*/
-    
-}
-    
-expand();
-

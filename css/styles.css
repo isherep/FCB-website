@@ -508,7 +508,7 @@ footer a {
     background-color: rgba(255,255,255); 
    
 }
-
+/**** EXPANDABEL CONTAINERS FOR EACH DEPARTMENT*****/
 .modalDiv {
   
     display: block;
@@ -518,12 +518,9 @@ footer a {
     margin-left: -10px;
     margin-top: -5px;
     border: 5px solid #FAEBD7;
+    border-radius: 4%;
     /*border: 10px outset #FAEBD7;*/
-  
-    
-    /*border: 10px outset #F4A460;*/
-    /*border-radius: 2%;*/
-    
+    /*border: 10px outset #F4A460;*/ 
 }
 
 
