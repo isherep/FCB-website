@@ -19,6 +19,7 @@ var pageSafety =  (function() {
 
 })();
 */
+
 var pageDepartments = (function(){
 
    var newHtml0, newHtml1, newHtml2, newHtml3, newHtml4, newHtml5, newHtml6, newHtml7;
