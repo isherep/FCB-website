@@ -1,0 +1,1071 @@
+/*css styles*/
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ccc;
+    font-family: Helvetica, Verdana, Arial;
+    background-image:url(../Images/Optimized-wood1.jpg);
+    background-blend-mode: multiply;
+    color: #222211;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    
+}
+
+body.home nav li:nth-child(1){
+    background: #669900;
+    
+}
+
+body.produce nav li:nth-child(2){
+     background: #669900;
+    
+}
+
+body.contacts nav li:nth-child(3){
+    background: #669900;
+    
+}
+body.foodsafety nav li:nth-child(4){
+     background: #669900;
+   
+}
+body.resources nav li:nth-child(5){
+    background: #669900;
+    
+}
+
+header {
+    width: 78%;
+    max-width: 1100px;
+    margin: 0 auto;
+    height: 170px;
+    border-bottom:2px solid white;
+    background:#fffaf0;
+     
+}
+
+div#wrapper { 
+   /* width:940px;*/
+    width: 78%;
+    max-width: 1100px;
+    margin:0 auto;
+    background:#fffaf0; 
+}
+
+quick ul{
+   /* max-width: 500px;*/
+    width: 53.19%;
+}
+
+header li {
+    list-style-type: none;
+    width:35%;
+    float: right;
+    text-decoration: none;
+    height: 40px;
+    border-radius: 5px;
+    /*25/940 = 2.65%*/
+    /*margin-right: 25px;*/
+    margin-right: 3.66%;
+    font-style: italic;
+    text-align: center;
+    padding-top: 11px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    background: #669900;
+ 
+}
+
+header a {
+    color: black;
+}
+
+div#company { 
+    /*550/940=58.51%*/
+    width:58.51%;
+    float: left; 
+}
+
+
+div#quick {
+    /*390/940 =41.49% */
+    width: 41.49%;
+    float: right;
+    /*60/940=6.38%*/
+    margin-top: 6.38%;
+}
+
+
+nav {
+    height:50px;
+    line-height: 50px;
+    background: #660000;
+    width: 100%;
+    overflow: hidden;
+    clear: both;  
+}
+
+nav ul {
+    margin: 0 auto;
+}
+
+nav li {
+    float:left;
+    list-style-type: none;
+    width:20%;
+    text-align: center;
+    font-family: Helvetica, Verdana, Arial;
+    font-weight: 700; 
+}
+
+nav a {
+    float: none;
+    text-decoration: none;
+    display: block;
+    color:white;
+    font-size: 1.1em;
+}
+
+nav a:hover{
+   background: #669900;
+}
+        
+  
+main {
+   /*Original 620*/
+    width:65.9%;
+    float: left;
+    /*margin: 20px 1% 10px 2.12%;*/
+    margin: 2.13% 1% 1.06% 2.12%
+}
+
+main img {
+    width:100%;
+}
+
+div#container1,
+div#container2,
+div#container3, 
+div#container4 {
+   /* width:700px;*/
+    width: 74.46%;
+    margin-left: 2.12%;
+    margin-top: 10px;
+    float: left;
+    padding-bottom: 5px;
+    
+}
+
+.products {
+    width: 48.5%;
+    float: left;
+    margin-left: 1.06%;
+    margin-top: 10px;
+    position: relative;
+}
+
+.products.active {
+    width: 50.5%;
+    float: left;
+    margin-left: 1.06%;
+    margin-top: 10px;
+    border: 2px;
+}
+
+img.departments {
+    max-width: 100%;
+    position: relative;
+    display: block;
+}
+
+img.departments.active {
+    max-width: 50%;
+    position: relative;
+    display: block;
+    border: 2px;
+}
+
+aside.produce {
+    width: 21.46%;
+    float: right;
+    margin-top: 20px;
+    margin-right: 7px;
+    padding-right: 10px;
+    color:#003300 ;
+    line-height: 1.5em;
+    
+}
+
+div#topbutton {
+    top: 200%;
+    clear: both;
+    float: right;
+    margin-right: 3%;
+    position:static;
+    border: 4px outset #FFA07A;
+   /* padding: 0.5%;*/
+    padding-bottom: 0.3%;
+    padding-left: 0.3%;
+    z-index: 99;
+    height: 7%;
+    width: 9%;
+    
+}
+
+.text-block {  
+    height: 2em;
+    line-height: 2em;
+    position: relative;
+    float:left;
+    margin-left: 1.5px;
+    width: 99%;
+}
+
+.names {
+    display: block;
+    color: white; 
+}
+
+div#container {
+    padding-left: 1.59%;
+    color:#003300;  
+}
+
+div#bottom {
+    width: 97.87%;
+    margin: 0 auto;
+    /*padding-right: 7px;
+    padding-top: 12px;*/
+    padding-right: 0.74%;
+    padding-top: 1.27%;
+    clear: both;
+}
+
+aside.home {
+    /*original 260/940=27.65%*/
+    width: 27.64%;
+    /*15/940=1.59%*/
+    /*20px/940=2.12%*/
+    /*7px/940=0.74*/
+    float: right;
+    margin: 2.12% 1.59% 0.74% 0.53%; 
+    
+}
+
+   
+aside.home ul {
+    list-style-type: none;
+    
+}
+
+aside.home li {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #003300;
+    font-weight: 500;
+    font-style: italic; 
+    border-bottom: 1px solid #330000;
+    border-radius: 7px;
+    line-height: 1.5em;
+}
+
+
+img.aside {
+    width: 100%;
+    display: block;
+    
+}
+
+div#awards {
+   /* width: 940px*/
+    width: 98%;
+    float:left;   
+}
+
+img.awards {
+    /*width: 70px;*/
+    width: 7.44%
+    /*margin-left: 120px*/;
+    margin-left: 12.76%; 
+}
+
+img.awards { 
+    height: 100%;
+}
+
+.resource p {
+    line-height: 1.5em;
+    padding: 0;
+    color: #003300; 
+}
+
+main.resource {
+    width: 55%;
+    float:left;
+    font-family: Helvetica, Verdana, Arial;
+    margin-left: 5.85%;
+}
+
+aside.resource{
+    width: 31%;
+    float: right;
+    margin: 3.12% 1.59% 0.74%;
+
+}
+
+img.resource  {
+    width: 100%;
+    margin-left: 0;  
+}
+
+iframe {
+    float: right;
+    width: 100%;
+    display: block;
+    margin-right: 20px;  
+}
+
+main.directions {
+    padding-top: 7px;
+    margin: 10px 0 5px 40px;
+    width: 70%;
+    max-width: 1100px;
+      
+}
+
+aside.directions {
+    float: right;
+    width: 340px;
+    margin: 10px 20px 10px 10px;
+}
+
+ol, ul.directions {
+    float: left;   
+    
+}
+
+
+li.directions {
+    list-style-position: inside;
+    line-height: 1.75em;
+    padding: 0;
+    float: left;
+    color: #003300;
+    font-weight: bold;
+    padding: 0 7px;
+}
+
+.southboud, 
+.northbound {
+    width: 580px;
+    float: left;
+    line-height: 1.5;
+    margin: 10px 0 10px 20px;
+    padding-left: 10px;
+    
+}
+
+
+.i90 {
+    width: 390px;
+    float: right;
+    margin: 10px 20px 25px 0;
+    padding: 0 7px;
+}
+
+main.safety {
+    width: 580px;
+    margin-left: 40px;
+}
+
+img.safety {
+    float: right;
+    width: 340px;
+}
+ul.safety {
+    float: left;
+    margin-top: 20px;
+   
+}
+
+li.safety {
+    list-style-position: outside;
+    margin-left: 10px;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+    padding-left: 1px;
+    color: #003300;
+    text-align: left;
+    font-weight: bold;   
+}
+
+aside.safety {
+    width: 300px;
+    float:right;
+    margin: 40px 20px 1px 1px;
+}
+
+img.safety {
+    width: 340px;
+    display: block;
+   
+}
+
+main.contacts {
+    width: 74%;
+    margin: 25px 10px 30px 50px;
+    
+}
+
+ul.contacts  {
+    margin-top: 40px;
+    margin-left: 0;
+}
+
+footer {
+    
+    height: 30px;
+    clear:both;
+    border-top: 1px dotted #A9A9A9;
+    
+}
+
+
+footer ul{
+    padding-left: 20%;
+    padding-top: 5px;
+    
+}
+
+footer li {
+    float: left;
+    list-style-type: none;
+    margin-right: 10%;
+    color:#666;
+    font-size:0.79em; 
+}
+
+footer a {
+   color:#666; 
+}
+
+#small:hover {
+    opacity: 0.7;
+}
+/*=======MODAL========*/
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 850px;
+    
+}
+
+.modal {
+      display: none; /*will be changed by js */
+      position: fixed; 
+      padding-top: 30px; /* Location of the box */
+      left: 0;
+      top: 0;
+      width: 100%; 
+      height: 100%; 
+      overflow: auto;      
+      background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* The Close Button */
+.close {
+      position: absolute;
+      top: 15px;
+      right: 150px;
+      color: #f1f1f1;
+      font-size: 40px;
+      font-weight: bold;
+      transition: 0.3s;
+}
+
+.close:hover{
+      color: #bbb;
+      text-decoration: none;
+      cursor: pointer;
+}
+
+
+.modalPr {
+    display: none; 
+    overflow:hidden;
+    width: 300px; 
+    height: 107%;
+    z-index: 1; 
+    background-color: rgba(255,255,255); 
+   
+}
+/**** EXPANDABEL CONTAINERS FOR EACH DEPARTMENT*****/
+.modalDiv {
+  
+    display: block;
+    position:absolute; 
+    overflow:hidden;
+    width: 110%;
+    margin-left: -10px;
+    margin-top: -5px;
+    border: 5px solid #FAEBD7;
+    border-radius: 4%;
+    /*border: 10px outset #FAEBD7;*/
+    /*border: 10px outset #F4A460;*/ 
+}
+
+
+/******Typography*******/
+
+
+h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.602em;
+    color: #222211;  
+    /*500/940=53.19%*/
+    margin-bottom: 7px;
+    padding: 1.59% 0 1.06% 0;    
+    
+}  
+
+
+h1.name {
+    font-family: Helvetica, Verdana, Arial;
+    font-size: 3.6em;
+    font-weight: bold;
+    color: #300000;
+    /*500/940=53.19%*/
+    width: 53.19%;
+    padding: 1.59% 0 1.06% 2.12%;    
+    
+} 
+
+h3 {
+    font-family: Helvetica, Verdana, Arial;
+    font-size:1.3em;
+    font-style: oblique;
+    line-height: 1.5em;
+    padding: 7px;
+    color: #222211;
+    margin-bottom: 12px;
+    
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-size: 1.266em;
+    font-family:"Times New Roman", Times, serif;
+    color: #222211;
+   
+}
+
+
+h4{
+    font-size: 0.83em;
+    margin-bottom: 10px;
+    color:#222211 ;
+}
+
+h5{
+    display: block;
+    font-size: 1em;
+    font-family: Helvetica, Verdana, Arial;
+    padding-left:1px;
+    color: #222211;
+    font-weight: bold;
+    margin-bottom: 7px;
+    padding-left: 5px;
+}        
+
+
+a {
+    text-decoration: none;
+    color:#4d0000;
+    text-align: center;
+}
+
+a.top-button{
+     padding: 0.05%;
+    margin-bottom: 3px;
+    color:#4d0000;
+    text-align: center;
+}
+
+.top-button{
+    color:black;
+    margin-bottom: 3px;
+    padding-bottom: 5px;
+}
+
+
+p.text-block {
+    position: absolute;
+    font-style:oblique;
+    bottom: 10px;
+    display: block;
+    font-size: 1.2em;
+    color: #1a1a00;
+    padding-left: 7px;
+    line-height: 2em;
+    text-align: left;
+    font-family: Helvetica, Verdana, Arial;
+    font-weight: bold;
+    background:  linear-gradient(to right, rgba(255,218,0,0.9), rgba(250,250,210,0.6));  
+}
+
+.resource a {
+    font-family: Helvetica, Verdana, Arial;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #003300;
+    line-height: 1.2em;
+}
+    
+header a {
+    margin-top:7px;
+}
+
+p {
+    font-family: Helvetica, Verdana, Arial;  
+    color:#003300;
+    line-height: 1.5em;
+    font-weight: bold;
+    font-size: 0.9em;
+    margin-bottom: 7px;
+    padding-left: 0px;
+}
+
+p.departments{
+    padding-top: 2px;
+    font-size: 0.75em;
+    line-height: 1.0em;
+    font-family: Helvetica, Verdana, Arial;
+    padding-left: 7px;
+    font-weight: bold;
+    color: #003300  ;
+}  
+
+a.departments {
+    font-style: italic;
+    text-decoration: underline;
+    color: #222211;
+    line-height: 1.5em;
+    font-size: 1.2em;
+}
+        
+
+p.phone {
+    font-size: 2em;
+    font-style: oblique;
+    float:right;
+    margin-right: 10px;
+    margin-top: 10px;
+    color: black;
+    text-decoration: none;
+   /* padding-left: 40px;*/
+}
+
+p.aside1 {
+    font-family: Helvetica, Verdana, Arial;
+    font-size: 0.89em;
+    color: 	#003300 ;
+}
+/*---------SCREEN SIZES-----------*/
+@media screen and (max-width: 1200px) {
+    
+    div#wrapper {
+   /* width:940px;*/
+        width: 95%;
+    }
+     header {
+        width: 95%;
+    }
+    
+    
+   
+    .text-block {
+        font-size : 0.9em;
+    }
+
+    h5 {
+        font-size: 0.95em;
+        
+    }   
+}
+
+@media screen and (max-width: 1100px) {
+    
+    div#wrapper {
+   /* width:940px;*/
+        width: 95%;
+    }
+    
+     header {
+        width: 95%;
+    }
+    
+    
+   
+    .text-block {
+        font-size : 0.8em;
+    }
+
+    h5 {
+        font-size: 0.95em;
+        
+    } 
+    
+    aside.home li {
+        font-size:0.95em;
+    }
+    
+    p{
+            font-size: 0.9em;
+        }
+    h3{
+            font-size: 1.2em;
+        }
+    div#topbutton {
+font-size: 0.8em;
+}
+    
+}
+
+@media screen and (max-width: 1000px) {
+    
+    div#wrapper {
+   /* width:940px;*/
+        width: 95%;
+    }
+    
+     header {
+        width: 95%;
+    }
+    
+    .text-block {
+        font-size : 0.8em;
+    }
+    
+    h5 {
+        font-size: 1em;
+        
+    }
+    
+    
+    a.departments {
+        font-size : 1.1em;
+    }
+    
+    aside.home li {
+        font-size:0.9em;
+    }
+    
+    p{
+            font-size: 0.9em;
+        }
+    h3{
+            font-size: 1.1em;
+        }
+}
+
+
+@media screen and (max-width: 900px) {
+    
+    div#wrapper {
+   /* width:940px;*/
+        width: 95%;
+    }
+    
+    header {
+   /* width:940px;*/
+        width: 95%;
+    }
+    
+    header li {
+        font-size: 0.9em;
+    }
+    
+    
+    .text-block {
+        font-size : 0.8em;
+    }
+    
+    h5 {
+        font-size: 1em;
+        
+    }
+    
+    
+    nav a {
+        font-size: 1em;
+    }
+    
+    quick a{
+        font-size: 0.8em;
+    }
+    
+    a.departments {
+        font-size : 1em;
+    }
+    
+    .text-block {
+        font-size : 0.75em;
+    }
+    
+    h5 {
+        font-size: 0.9em;
+        
+    }
+    
+    aside.home li {
+        font-size:0.8em;
+    }
+    
+    p{
+            font-size: 0.8em;
+        }
+    
+    h3{
+            font-size: 1em;
+        }
+    
+    footer li {
+            font-size:0.6em; 
+        }
+    div#topbutton {
+font-size: 0.7em;
+}
+        
+    
+}
+    
+
+
+@media screen and (max-width: 800px) {
+    
+    div#wrapper {
+        width: 95%;
+    }
+    
+    header {
+        width: 95%;
+    }
+    
+    header li {
+        font-size: 0.9em;
+    }
+    
+    
+    nav a {
+        font-size: 1em;
+    }
+    
+    quick a{
+        font-size: 0.8em;
+    }
+    
+    
+    .text-block {
+        font-size : 0.65em;
+    }
+    
+    h5 {
+        font-size: 0.8em;
+        
+    }
+    
+    
+     aside.produce {
+        font-size: 0.9em;
+    }  
+    
+     h1.name {
+        font-size: 3.2em;
+    }
+    p.phone {
+        font-size: 1.8em;
+    }
+    
+    ul.contacts {
+            font-size: 0.9em;
+}
+    aside.home li {
+        font-size:0.8em;
+    }
+    
+    p{
+            font-size: 0.75em;
+        }
+    
+     h3{
+            font-size: 0.9em;
+        }
+    }
+    
+
+@media screen and (max-width: 700px) {
+    
+     div#wrapper {
+        width: 95%;
+    }
+    
+     header {
+        width: 95%;
+    }
+    
+    header li {
+        font-size: 0.8em;
+    }
+
+    nav a {
+        font-size: 0.80em;
+        
+    }
+    
+    
+    quick a{
+        font-size: 0.75em;
+    }
+    
+    
+     h5 {
+        font-size: 0.75em;
+        
+    }
+    .text-block {
+        font-size: 0.5em;
+    }
+    
+    div#topbutton {
+font-size: 0.6em;
+}
+    
+    
+    aside.produce {
+        font-size: 0.8em;
+    }
+     div#quick {
+        width: 40%;
+    }
+    h1.name {
+        font-size: 3.1em;
+        }
+    p.phone {
+        font-size: 1.5em;
+    }
+    
+    main.contacts h1 {
+            font-size: 1.4em;
+        }
+    
+    aside.home li {
+        font-size:0.65em;
+    }
+    
+    p{
+            font-size: 0.7em;
+        }
+    
+     h3{
+            font-size: 0.8em;
+        }
+    
+    footer li {
+            font-size:0.5em; 
+        }
+    div#topbutton{
+        width: 11%;
+    }
+}
+    
+    @media screen and (max-width: 500px) {
+    
+     div#wrapper {
+        width: 95%;
+    }
+    
+     header {
+        width: 95%;
+    }
+    
+    header li {
+        font-size: 0.6em;
+    }
+
+    nav a {
+        font-size: 0.60em;
+        
+    }
+    
+    
+    quick a{
+        font-size: 0.55em;
+    }
+    
+    .text-block {
+        font-size: 0.4em;
+    }
+        
+        
+     h5 {
+        font-size: 0.55em;
+        
+    }
+    
+    
+    aside.produce {
+        font-size: 0.6em;
+    }
+    
+         a.departments {
+        font-size : 0.6em;
+    }
+        
+        div#quick {
+        width: 35%;
+    }
+        h1.name {
+            font-size: 2.5em;
+        }
+        p.phone {
+            font-size: 1.2em;
+        }
+        
+        ul.contacts {
+            font-size: 0.8em;
+        }
+        
+        main.contacts h1 {
+            font-size: 1em;
+        }
+        
+        aside.home li {
+        font-size:0.65em;
+    }
+        p{
+            font-size: 0.7em;
+        }
+        
+        h3{
+            font-size: 0.7em;
+        }
+        
+        footer li {
+            font-size:0.4em; 
+        }
+        div#topbutton {
+        width: 12%;
+font-size: 0.3em;
+}
+        
+        
+}
