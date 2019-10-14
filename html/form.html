@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Iryna's Form Page</title>
+
+<!--Remy Sharp Shim -->
+<!--[if lte IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js" type="text/javascript" >
+</script>
+<![endif]-->
+
+<link href="styles.css" type="text/css" rel="stylesheet">
+
+    
+</head>
+
+<body>
+
+<div id="wrapper">
+    <header>
+    <img class="header" src="Images/sugarhero-logo-top-menu.png" alt= "logo">
+    </header>
+    <main>
+
+<form action="formhandler-2.php" method="post">
+<fieldset>
+<legend>YOU WILL BE MISSED</legend>
+<label>NAME</label>
+    <input type="text" name="name">
+<label>EMAIL</label>
+    <input type="email" name="email">
+<label>OPTION</label>
+    <ul>
+    <li><input type="radio" name="receive less email" value= "receive less email">I want to receive less email</li>
+    <li><input type="radio" name="unsubsribe" value= "unsubscribe">I want to unsubscribe completely</li>
+
+    </ul>
+
+
+<label>PLEASE TELL US REASON</label>
+    <ul>
+    <li><input type ="checkbox" name ="reason[]" value= "too much email">I have received too many emails</li>
+    <li><input type="checkbox" name="recipes did not work[]" value= "merlot">The receipes did not work out for me</li>
+    <li><input type="checkbox" name="reason[]" value= "didn't like the desert's taste">I did't like how desserts tasted</li>
+    <li><input type="checkbox" name="reason[]" value= "gaining weight">I started gaining too much weight</li>
+
+    </ul>
+
+
+
+<label>COMENTS</label>
+<textarea name = "comments" rows = "10"></textarea>
+
+<input type = "submit" value="send it">
+
+</fieldset>
+
+
+
+
+    </form>
+        </main>
+    <aside>
+
+    <h1>100+ New recipes every day!</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis ante in ante aliquet tincidunt vitae id neque. Pellentesque sagittis non nulla a tincidunt. Sed vehicula urna arcu, non finibus lacus feugiat non.</p>
+    <img src="Images/twosice.jpg" alt="cake">
+
+    <p>Praesent eu sodales nulla. Nunc eget pharetra mauris, in ullamcorper arcu. Ut at nibh in dui fringilla malesuada. Praesent euismod egestas.  Pellentesque sagittis non nulla a tincidunt </p>
+    <p>Fusce bibendum mattis mauris, sit amet commodo lorem hendrerit quis. Quisque dictum ac sapien sit amet tincidunt. </p>
+    </aside>
+    <footer>
+<ul>
+        <li>Copyright 2018 &copy;</li>
+            <li>All Rights Reserved</li>
+            <li><a href="../index.html">Web Design by Iryna</a></li>
+            <li><a href ="https://validator.w3.org/check?uri=referer">Valid!</a></li>
+
+</ul>
+    </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+    
+    <!--<script language="JavaScript" type = 'text/javascript' src="jquery.js">-->
+      <script>  
+        $(document).ready(function(){
+
+            //$("#wrapper").css("width", 200);
+            $("aside").css("width", 700);
+});
+
+  </script>
+</body>
+</html>

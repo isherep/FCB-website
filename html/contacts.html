@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Contacts</title>	
-<meta charset="utf-8">  
- <link href="../css/styles.css" type="text/css" rel="stylesheet">           
+<title>Contacts</title>
+<meta charset="utf-8">
+ <link href="../css/styles.css" type="text/css" rel="stylesheet">
 </head>
 
      <body class = "contacts">
@@ -16,7 +16,7 @@
              <ul>
                 <li><a href="hours.html" >Hours</a> </li>
                 <li><a href="directions.html" >Directions</a> </li>
-            </ul>   
+            </ul>
             <p class="phone">206-624-1000</p>
             </div> <!--closed quick-->
         </header>
@@ -32,7 +32,7 @@
             </ul>
         </nav>
 
-          <main class="contacts"> 
+          <main class="contacts">
               <h1>F.C. Bloxom Company  Contacts</h1>
                     <ul class = "contacts">
                         <li class="safety">Seattle Office (206)-624-1000</li>
@@ -49,7 +49,41 @@
                         <li class="safety"><a href="mailto:jeremyv@fcbloxom.com">Food Safety Coordinator</a> (206) 379-5673</li>
                     </ul>
               </main>
+<!-- Contact form for Lambda function-->
 
+             
+<form id = "contact-form" method="post" class="form">
+  <div style="text-align:center">
+    <h2>Contact Us</h2>
+                 </div>
+    
+
+  <div class="row">
+    
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</form>
+
+             
+             
+             <!--end of form--->
+             
              <div id = "awards">
             <img class="awards" src = "../Images/bluebook.gif" alt = "blue book">
     <img class = "awards" src = "../Images/FD_pref_weblogo.jpg" alt= "fd logo">
@@ -63,8 +97,7 @@
                 <li>All Rights Reserved</li>
                 <li><a href="../index.html">Web Design by Iryna</a></li>
             </ul>
-        </footer>  
+        </footer>
     </div> <!--end wrapper-->
     </body>
 </html>
-    
