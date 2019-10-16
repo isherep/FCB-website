@@ -6,7 +6,7 @@
 
 ###The website is hosted in AWS CloudFront. AWS Lambda is used to process the contact form on the contact page
 
-![https://github.com/isherep/FCB-website/blob/master/Images/index-view.png]
+![front page](https://github.com/isherep/FCB-website/blob/master/Images/index-view.png)
 
 
 ![https://github.com/isherep/FCB-website/blob/master/Images/produce-view.png]
