@@ -685,8 +685,13 @@ p.aside1 {
 /* Contact email form*/
 
 /* Style inputs */
-input[type=text], select, textarea {
-  width: 100%;
+#contact-form{
+    margin-top: 5%;
+    width: 35%;
+    float: right;
+}
+input[type=text], [type=phone], [type = email], select, textarea {
+  width: 90%;
   padding: 12px;
   border: 1px solid #ccc;
   margin-top: 6px;
@@ -732,15 +737,15 @@ input[type=submit]:hover {
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .column, .form, input[type=submit] {
+  .column, #contact-form, input[type=submit] {
     width: 100%;  
-      margin-left: 30px;
+    margin-left: 50px;
    
   }
 }
 
 @media screen and (max-width: 800px) {
-  .column, .form, input[type=submit] {
+  .column, #contact-form, input[type=submit] {
     width: 80%;  
     margin-left: 10px;
       float: left;
