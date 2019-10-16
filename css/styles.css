@@ -13,31 +13,32 @@ body {
     color: #222211;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed; 
-    
+    background-attachment: fixed;
+
 }
 
 body.home nav li:nth-child(1){
     background: #669900;
-    
+
 }
 
 body.produce nav li:nth-child(2){
      background: #669900;
-    
+
 }
 
 body.contacts nav li:nth-child(3){
     background: #669900;
-    
+
 }
 body.foodsafety nav li:nth-child(4){
      background: #669900;
-   
+
 }
 body.resources nav li:nth-child(5){
     background: #669900;
     
+
 }
 
 header {
@@ -47,15 +48,15 @@ header {
     height: 170px;
     border-bottom:2px solid white;
     background:#fffaf0;
-     
+
 }
 
-div#wrapper { 
+div#wrapper {
    /* width:940px;*/
     width: 78%;
     max-width: 1100px;
     margin:0 auto;
-    background:#fffaf0; 
+    background:#fffaf0;
 }
 
 quick ul{
@@ -79,17 +80,17 @@ header li {
     padding-bottom: 5px;
     font-weight: bold;
     background: #669900;
- 
+
 }
 
 header a {
     color: black;
 }
 
-div#company { 
+div#company {
     /*550/940=58.51%*/
     width:58.51%;
-    float: left; 
+    float: left;
 }
 
 
@@ -108,7 +109,7 @@ nav {
     background: #660000;
     width: 100%;
     overflow: hidden;
-    clear: both;  
+    clear: both;
 }
 
 nav ul {
@@ -121,7 +122,7 @@ nav li {
     width:20%;
     text-align: center;
     font-family: Helvetica, Verdana, Arial;
-    font-weight: 700; 
+    font-weight: 700;
 }
 
 nav a {
@@ -135,8 +136,8 @@ nav a {
 nav a:hover{
    background: #669900;
 }
-        
-  
+
+
 main {
    /*Original 620*/
     width:65.9%;
@@ -151,7 +152,7 @@ main img {
 
 div#container1,
 div#container2,
-div#container3, 
+div#container3,
 div#container4 {
    /* width:700px;*/
     width: 74.46%;
@@ -159,7 +160,7 @@ div#container4 {
     margin-top: 10px;
     float: left;
     padding-bottom: 5px;
-    
+
 }
 
 .products {
@@ -199,7 +200,7 @@ aside.produce {
     padding-right: 10px;
     color:#003300 ;
     line-height: 1.5em;
-    
+
 }
 
 div#topbutton {
@@ -215,10 +216,10 @@ div#topbutton {
     z-index: 99;
     height: 7%;
     width: 9%;
-    
+
 }
 
-.text-block {  
+.text-block {
     height: 2em;
     line-height: 2em;
     position: relative;
@@ -229,12 +230,12 @@ div#topbutton {
 
 .names {
     display: block;
-    color: white; 
+    color: white;
 }
 
 div#container {
     padding-left: 1.59%;
-    color:#003300;  
+    color:#003300;
 }
 
 div#bottom {
@@ -254,14 +255,14 @@ aside.home {
     /*20px/940=2.12%*/
     /*7px/940=0.74*/
     float: right;
-    margin: 2.12% 1.59% 0.74% 0.53%; 
-    
+    margin: 2.12% 1.59% 0.74% 0.53%;
+
 }
 
-   
+
 aside.home ul {
     list-style-type: none;
-    
+
 }
 
 aside.home li {
@@ -270,7 +271,7 @@ aside.home li {
     text-decoration: none;
     color: #003300;
     font-weight: 500;
-    font-style: italic; 
+    font-style: italic;
     border-bottom: 1px solid #330000;
     border-radius: 7px;
     line-height: 1.5em;
@@ -280,30 +281,30 @@ aside.home li {
 img.aside {
     width: 100%;
     display: block;
-    
+
 }
 
 div#awards {
    /* width: 940px*/
     width: 98%;
-    float:left;   
+    float:left;
 }
 
 img.awards {
     /*width: 70px;*/
     width: 7.44%
     /*margin-left: 120px*/;
-    margin-left: 12.76%; 
+    margin-left: 12.76%;
 }
 
-img.awards { 
+img.awards {
     height: 100%;
 }
 
 .resource p {
     line-height: 1.5em;
     padding: 0;
-    color: #003300; 
+    color: #003300;
 }
 
 main.resource {
@@ -322,14 +323,14 @@ aside.resource{
 
 img.resource  {
     width: 100%;
-    margin-left: 0;  
+    margin-left: 0;
 }
 
 iframe {
     float: right;
     width: 100%;
     display: block;
-    margin-right: 20px;  
+    margin-right: 20px;
 }
 
 main.directions {
@@ -337,7 +338,7 @@ main.directions {
     margin: 10px 0 5px 40px;
     width: 70%;
     max-width: 1100px;
-      
+
 }
 
 aside.directions {
@@ -347,8 +348,8 @@ aside.directions {
 }
 
 ol, ul.directions {
-    float: left;   
-    
+    float: left;
+
 }
 
 
@@ -362,14 +363,14 @@ li.directions {
     padding: 0 7px;
 }
 
-.southboud, 
+.southboud,
 .northbound {
     width: 580px;
     float: left;
     line-height: 1.5;
     margin: 10px 0 10px 20px;
     padding-left: 10px;
-    
+
 }
 
 
@@ -392,7 +393,7 @@ img.safety {
 ul.safety {
     float: left;
     margin-top: 20px;
-   
+
 }
 
 li.safety {
@@ -403,7 +404,7 @@ li.safety {
     padding-left: 1px;
     color: #003300;
     text-align: left;
-    font-weight: bold;   
+    font-weight: bold;
 }
 
 aside.safety {
@@ -415,13 +416,13 @@ aside.safety {
 img.safety {
     width: 340px;
     display: block;
-   
+
 }
 
 main.contacts {
-    width: 74%;
+    width: 50%;
     margin: 25px 10px 30px 50px;
-    
+
 }
 
 ul.contacts  {
@@ -430,18 +431,18 @@ ul.contacts  {
 }
 
 footer {
-    
+
     height: 30px;
     clear:both;
     border-top: 1px dotted #A9A9A9;
-    
+
 }
 
 
 footer ul{
     padding-left: 20%;
     padding-top: 5px;
-    
+
 }
 
 footer li {
@@ -449,11 +450,11 @@ footer li {
     list-style-type: none;
     margin-right: 10%;
     color:#666;
-    font-size:0.79em; 
+    font-size:0.79em;
 }
 
 footer a {
-   color:#666; 
+   color:#666;
 }
 
 #small:hover {
@@ -466,18 +467,18 @@ footer a {
     display: block;
     width: 80%;
     max-width: 850px;
-    
+
 }
 
 .modal {
       display: none; /*will be changed by js */
-      position: fixed; 
+      position: fixed;
       padding-top: 30px; /* Location of the box */
       left: 0;
       top: 0;
-      width: 100%; 
-      height: 100%; 
-      overflow: auto;      
+      width: 100%;
+      height: 100%;
+      overflow: auto;
       background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
 }
 
@@ -500,19 +501,19 @@ footer a {
 
 
 .modalPr {
-    display: none; 
+    display: none;
     overflow:hidden;
-    width: 300px; 
+    width: 300px;
     height: 107%;
-    z-index: 1; 
-    background-color: rgba(255,255,255); 
-   
+    z-index: 1;
+    background-color: rgba(255,255,255);
+
 }
 /**** EXPANDABEL CONTAINERS FOR EACH DEPARTMENT*****/
 .modalDiv {
-  
+
     display: block;
-    position:absolute; 
+    position:absolute;
     overflow:hidden;
     width: 110%;
     margin-left: -10px;
@@ -520,7 +521,7 @@ footer a {
     border: 5px solid #FAEBD7;
     border-radius: 4%;
     /*border: 10px outset #FAEBD7;*/
-    /*border: 10px outset #F4A460;*/ 
+    /*border: 10px outset #F4A460;*/
 }
 
 
@@ -530,12 +531,12 @@ footer a {
 h1 {
     font-family: "Times New Roman", Times, serif;
     font-size: 1.602em;
-    color: #222211;  
+    color: #222211;
     /*500/940=53.19%*/
     margin-bottom: 7px;
-    padding: 1.59% 0 1.06% 0;    
-    
-}  
+    padding: 1.59% 0 1.06% 0;
+
+}
 
 
 h1.name {
@@ -545,9 +546,9 @@ h1.name {
     color: #300000;
     /*500/940=53.19%*/
     width: 53.19%;
-    padding: 1.59% 0 1.06% 2.12%;    
-    
-} 
+    padding: 1.59% 0 1.06% 2.12%;
+
+}
 
 h3 {
     font-family: Helvetica, Verdana, Arial;
@@ -557,7 +558,7 @@ h3 {
     padding: 7px;
     color: #222211;
     margin-bottom: 12px;
-    
+
 }
 
 h2 {
@@ -565,7 +566,7 @@ h2 {
     font-size: 1.266em;
     font-family:"Times New Roman", Times, serif;
     color: #222211;
-   
+
 }
 
 
@@ -584,7 +585,7 @@ h5{
     font-weight: bold;
     margin-bottom: 7px;
     padding-left: 5px;
-}        
+}
 
 
 a {
@@ -619,7 +620,7 @@ p.text-block {
     text-align: left;
     font-family: Helvetica, Verdana, Arial;
     font-weight: bold;
-    background:  linear-gradient(to right, rgba(255,218,0,0.9), rgba(250,250,210,0.6));  
+    background:  linear-gradient(to right, rgba(255,218,0,0.9), rgba(250,250,210,0.6));
 }
 
 .resource a {
@@ -629,13 +630,13 @@ p.text-block {
     color: #003300;
     line-height: 1.2em;
 }
-    
+
 header a {
     margin-top:7px;
 }
 
 p {
-    font-family: Helvetica, Verdana, Arial;  
+    font-family: Helvetica, Verdana, Arial;
     color:#003300;
     line-height: 1.5em;
     font-weight: bold;
@@ -652,7 +653,7 @@ p.departments{
     padding-left: 7px;
     font-weight: bold;
     color: #003300  ;
-}  
+}
 
 a.departments {
     font-style: italic;
@@ -661,7 +662,7 @@ a.departments {
     line-height: 1.5em;
     font-size: 1.2em;
 }
-        
+
 
 p.phone {
     font-size: 2em;
@@ -679,9 +680,81 @@ p.aside1 {
     font-size: 0.89em;
     color: 	#003300 ;
 }
+
+
+/* Contact email form*/
+
+/* Style inputs */
+#contact-form{
+    margin-top: 5%;
+    width: 35%;
+    float: right;
+}
+input[type=text], [type=phone], [type = email], select, textarea {
+  width: 90%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.form {
+  border-radius: 5px;
+  padding: 10px;
+  width: 30%;
+  float: right;
+  margin: 40px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 90%;
+  margin-top: 6px;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, #contact-form, input[type=submit] {
+    width: 100%;  
+    margin-left: 50px;
+   
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .column, #contact-form, input[type=submit] {
+    width: 80%;  
+    margin-left: 10px;
+      float: left;
+  }
+}
+
 /*---------SCREEN SIZES-----------*/
 @media screen and (max-width: 1200px) {
-    
+
     div#wrapper {
    /* width:940px;*/
         width: 95%;
@@ -689,45 +762,45 @@ p.aside1 {
      header {
         width: 95%;
     }
-    
-    
-   
+
+
+
     .text-block {
         font-size : 0.9em;
     }
 
     h5 {
         font-size: 0.95em;
-        
-    }   
+
+    }
 }
 
 @media screen and (max-width: 1100px) {
-    
+
     div#wrapper {
    /* width:940px;*/
         width: 95%;
     }
-    
+
      header {
         width: 95%;
     }
-    
-    
-   
+
+
+
     .text-block {
         font-size : 0.8em;
     }
 
     h5 {
         font-size: 0.95em;
-        
-    } 
-    
+
+    }
+
     aside.home li {
         font-size:0.95em;
     }
-    
+
     p{
             font-size: 0.9em;
         }
@@ -737,38 +810,38 @@ p.aside1 {
     div#topbutton {
 font-size: 0.8em;
 }
-    
+
 }
 
 @media screen and (max-width: 1000px) {
-    
+
     div#wrapper {
    /* width:940px;*/
         width: 95%;
     }
-    
+
      header {
         width: 95%;
     }
-    
+
     .text-block {
         font-size : 0.8em;
     }
-    
+
     h5 {
         font-size: 1em;
-        
+
     }
-    
-    
+
+
     a.departments {
         font-size : 1.1em;
     }
-    
+
     aside.home li {
         font-size:0.9em;
     }
-    
+
     p{
             font-size: 0.9em;
         }
@@ -779,177 +852,177 @@ font-size: 0.8em;
 
 
 @media screen and (max-width: 900px) {
-    
+
     div#wrapper {
    /* width:940px;*/
         width: 95%;
     }
-    
+
     header {
    /* width:940px;*/
         width: 95%;
     }
-    
+
     header li {
         font-size: 0.9em;
     }
-    
-    
+
+
     .text-block {
         font-size : 0.8em;
     }
-    
+
     h5 {
         font-size: 1em;
-        
+
     }
-    
-    
+
+
     nav a {
         font-size: 1em;
     }
-    
+
     quick a{
         font-size: 0.8em;
     }
-    
+
     a.departments {
         font-size : 1em;
     }
-    
+
     .text-block {
         font-size : 0.75em;
     }
-    
+
     h5 {
         font-size: 0.9em;
-        
+
     }
-    
+
     aside.home li {
         font-size:0.8em;
     }
-    
+
     p{
             font-size: 0.8em;
         }
-    
+
     h3{
             font-size: 1em;
         }
-    
+
     footer li {
-            font-size:0.6em; 
+            font-size:0.6em;
         }
     div#topbutton {
 font-size: 0.7em;
 }
-        
-    
+
+
 }
-    
+
 
 
 @media screen and (max-width: 800px) {
-    
+
     div#wrapper {
         width: 95%;
     }
-    
+
     header {
         width: 95%;
     }
-    
+
     header li {
         font-size: 0.9em;
     }
-    
-    
+
+
     nav a {
         font-size: 1em;
     }
-    
+
     quick a{
         font-size: 0.8em;
     }
-    
-    
+
+
     .text-block {
         font-size : 0.65em;
     }
-    
+
     h5 {
         font-size: 0.8em;
-        
+
     }
-    
-    
+
+
      aside.produce {
         font-size: 0.9em;
-    }  
-    
+    }
+
      h1.name {
         font-size: 3.2em;
     }
     p.phone {
         font-size: 1.8em;
     }
-    
+
     ul.contacts {
             font-size: 0.9em;
 }
     aside.home li {
         font-size:0.8em;
     }
-    
+
     p{
             font-size: 0.75em;
         }
-    
+
      h3{
             font-size: 0.9em;
         }
     }
-    
+
 
 @media screen and (max-width: 700px) {
-    
+
      div#wrapper {
         width: 95%;
     }
-    
+
      header {
         width: 95%;
     }
-    
+
     header li {
         font-size: 0.8em;
     }
 
     nav a {
         font-size: 0.80em;
-        
+
     }
-    
-    
+
+
     quick a{
         font-size: 0.75em;
     }
-    
-    
+
+
      h5 {
         font-size: 0.75em;
-        
+
     }
     .text-block {
         font-size: 0.5em;
     }
-    
+
     div#topbutton {
 font-size: 0.6em;
 }
-    
-    
+
+
     aside.produce {
         font-size: 0.8em;
     }
@@ -962,74 +1035,74 @@ font-size: 0.6em;
     p.phone {
         font-size: 1.5em;
     }
-    
+
     main.contacts h1 {
             font-size: 1.4em;
         }
-    
+
     aside.home li {
         font-size:0.65em;
     }
-    
+
     p{
             font-size: 0.7em;
         }
-    
+
      h3{
             font-size: 0.8em;
         }
-    
+
     footer li {
-            font-size:0.5em; 
+            font-size:0.5em;
         }
     div#topbutton{
         width: 11%;
     }
 }
-    
+
     @media screen and (max-width: 500px) {
-    
+
      div#wrapper {
         width: 95%;
     }
-    
+
      header {
         width: 95%;
     }
-    
+
     header li {
         font-size: 0.6em;
     }
 
     nav a {
         font-size: 0.60em;
-        
+
     }
-    
-    
+
+
     quick a{
         font-size: 0.55em;
     }
-    
+
     .text-block {
         font-size: 0.4em;
     }
-        
-        
+
+
      h5 {
         font-size: 0.55em;
-        
+
     }
-    
-    
+
+
     aside.produce {
         font-size: 0.6em;
     }
-    
+
          a.departments {
         font-size : 0.6em;
     }
-        
+
         div#quick {
         width: 35%;
     }
@@ -1039,33 +1112,35 @@ font-size: 0.6em;
         p.phone {
             font-size: 1.2em;
         }
-        
+
         ul.contacts {
             font-size: 0.8em;
         }
-        
+
         main.contacts h1 {
             font-size: 1em;
         }
-        
+
         aside.home li {
         font-size:0.65em;
     }
         p{
             font-size: 0.7em;
         }
-        
+
         h3{
             font-size: 0.7em;
         }
-        
+
         footer li {
-            font-size:0.4em; 
+            font-size:0.4em;
         }
         div#topbutton {
         width: 12%;
 font-size: 0.3em;
 }
-        
-        
+
 }
+
+
+  /* Style inputs */

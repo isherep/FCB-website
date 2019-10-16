@@ -1,9 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Contacts</title>	
-<meta charset="utf-8">  
- <link href="../css/styles.css" type="text/css" rel="stylesheet">           
+    <title>Contacts</title>
+<meta charset="utf-8">
+ <link href="../css/styles.css" type="text/css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script>
+      function submitToAPI(e) {
+       e.preventDefault();
+       var URL = " https://3ot8m8zrf9.execute-api.us-west-2.amazonaws.com/prod/contact-us";
+          
+         
+
+            var Namere = /[A-Za-z]{1}[A-Za-z]/;
+            if (!Namere.test($("#name-input").val())) {
+                         alert ("Name can not less than 2 char");
+                return;
+            }
+            var mobilere = /[0-9]{10}/;
+            if (!mobilere.test($("#phone-input").val())) {
+                alert ("Please enter valid mobile number without dashes");
+                return;
+            }
+            if ($("#email-input").val()=="") {
+                alert ("Please enter your email id");
+                return;
+            }
+
+            var reeamil = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,6})?$/;
+            if (!reeamil.test($("#email-input").val())) {
+                alert ("Please enter valid email address");
+                return;
+            }
+
+       var name = $("#name-input").val();
+       var phone = $("#phone-input").val();
+       var email = $("#email-input").val();
+       var desc = $("#description-input").val();
+       var data = {
+          name : name,
+          phone : phone,
+          email : email,
+          desc : desc
+        };
+
+       $.ajax({
+         type: "POST",
+         url : "https://3ot8m8zrf9.execute-api.us-west-2.amazonaws.com/prod/contact-us",
+         dataType: "json",
+         crossDomain: "true",
+         contentType: "application/json; charset=utf-8",
+         data: JSON.stringify(data),
+
+         
+         success: function () {
+           // clear form and show a success message
+           alert("Your contact form was submitted! \nThank you for contacting us! \nOur company will reach out to you soon. ");
+           document.getElementById("contact-form").reset();
+       location.reload();
+         },
+         error: function () {
+           // show an error message
+           alert("Sorry, your form could not be processed at this time. \n Please try again later.");
+         }});
+     }
+    </script>
+
 </head>
 
      <body class = "contacts">
@@ -16,7 +78,7 @@
              <ul>
                 <li><a href="hours.html" >Hours</a> </li>
                 <li><a href="directions.html" >Directions</a> </li>
-            </ul>   
+            </ul>
             <p class="phone">206-624-1000</p>
             </div> <!--closed quick-->
         </header>
@@ -32,7 +94,7 @@
             </ul>
         </nav>
 
-          <main class="contacts"> 
+          <main class="contacts">
               <h1>F.C. Bloxom Company  Contacts</h1>
                     <ul class = "contacts">
                         <li class="safety">Seattle Office (206)-624-1000</li>
@@ -49,6 +111,23 @@
                         <li class="safety"><a href="mailto:jeremyv@fcbloxom.com">Food Safety Coordinator</a> (206) 379-5673</li>
                     </ul>
               </main>
+<!-- Contact form for Lambda function-->
+
+
+    <form id="contact-form" method="post"   >
+      <h4>Name:</h4>
+      <input type="text" style="height:35px;" id="name-input" placeholder="Enter name here…" class="form-control" /><br/>
+      <h4>Phone:</h4>
+      <input type="phone" style="height:35px;" id="phone-input" placeholder="Enter phone number" class="form-control" style="width:100%;"/><br/>
+      <h4>Email:</h4>
+      <input type="email" style="height:35px;" id="email-input" placeholder="Enter email here…" class="form-control" style="width:100%;"/><br/>
+      <h4>How can we help you?</h4>
+      <textarea id="description-input" rows="3" placeholder="Enter your message…" class="form-control" style="width:90%;"></textarea><br/>
+      <div class="g-recaptcha" data-sitekey="6Lc7cVMUAAAAAM1yxf64wrmO8gvi8A1oQ_ead1ys" class="form-control" style="width:100%;"></div>
+      <button type="button" onClick="submitToAPI(event)" class="btn btn-lg" style="margin-top:20px;">Submit</button>
+</form>
+
+             <!--end of form-->
 
              <div id = "awards">
             <img class="awards" src = "../Images/bluebook.gif" alt = "blue book">
@@ -63,8 +142,7 @@
                 <li>All Rights Reserved</li>
                 <li><a href="../index.html">Web Design by Iryna</a></li>
             </ul>
-        </footer>  
+        </footer>
     </div> <!--end wrapper-->
     </body>
 </html>
-    
